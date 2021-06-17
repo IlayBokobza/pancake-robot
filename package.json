@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "makeMap":"python3 makeMap.py",
+        "preview":"node preview",
+        "swap":"node swapColor",
+        "start": "go run main.go"
+    }
+}

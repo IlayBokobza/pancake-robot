@@ -16,7 +16,7 @@ def makeMap():
     for y in range(imgSize[0]):
         newLine = []
         for x in range(imgSize[1]):
-            pixelValue = imgData[y,x]
+            pixelValue = imgData[x,y]
             if pixelValue > 80:
                 newLine.append(1)
             else:
@@ -28,3 +28,4 @@ def makeMap():
     newFile.write(json.dumps(output))
 
 makeMap()
+print("done")
